@@ -30,8 +30,8 @@ repositories {
     }
 }
 minecraft {
-    version = "1.12.2-14.23.4.2705"
-    mappings = "snapshot_20171031"
+    version = "1.12.2-14.23.5.2847"
+    mappings = "stable_39"
     runDir = 'run'
     replaceIn "Version.java"
     replace "@VERSION@", project.version + '-' + project.ext.buildNumber
